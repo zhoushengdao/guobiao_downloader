@@ -4,8 +4,6 @@
 #
 #    pip-compile
 #
---index-url https://pypi.tuna.tsinghua.edu.cn/simple
-
 altair==5.5.0
     # via streamlit
 attrs==24.3.0
@@ -24,8 +22,6 @@ charset-normalizer==3.4.1
     # via requests
 click==8.1.8
     # via streamlit
-colorama==0.4.6
-    # via click
 gitdb==4.0.12
     # via gitpython
 gitpython==3.1.44
@@ -111,7 +107,7 @@ typing-extensions==4.12.2
     #   streamlit
 tzdata==2024.2
     # via pandas
-urllib3==2.3.0
+urllib3==2.8.0
     # via requests
 watchdog==6.0.0
     # via streamlit
